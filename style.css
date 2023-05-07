@@ -1,0 +1,281 @@
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Nav Bar */
+
+nav {
+    background: #343a40;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+nav span {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin: 0;
+    padding: 0;
+}
+
+nav img { 
+    width: 7rem;
+}
+
+/* Introduccion */
+
+.seccionIntro {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("assets/ba1.jpg") no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 10rem;
+}
+
+.seccionIntro div {
+    width: 40%;
+    text-align: right;
+    padding-bottom: 10rem;
+}
+
+.seccionIntro h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.seccionIntro p {
+    color: #fff;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.seccionIntro a {
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 1rem 0.8rem 1rem 0.8rem;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+/* Oradores */
+
+.seccionOradores {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 2rem;
+}
+
+.seccionOradores > p {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    margin: 0;
+}
+
+.seccionOradores > h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.contenedorOradores {
+    display: flex;
+    justify-content: center;
+    padding: 0 20% 0 20%;
+    gap: 5rem;
+}
+
+.contenedorOradores p {
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+.contenedorOradores img {
+    width: 100%;
+}
+
+.contenedorOradores > div {
+    border: #ccc solid 1px;
+    border-radius: 5px;
+}
+
+.contenedorOradores > div > div{
+    padding: 1rem;
+}
+
+.contenedorOradores span {
+    padding: 0.4rem;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.boxJS {
+    background: #ffc406;
+}
+
+.boxReact {
+    background: #18a2ba;
+}
+
+.boxNegocios {
+    background: #6d747e;
+}
+
+.boxStartups {
+    background: #db2c3e;
+}
+
+/* Buenos Aires - Octubre */
+
+.seccionBsAs {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.seccionBsAs img {
+    width: 50%;
+}
+
+.seccionBsAs div {
+    padding: 1rem;
+    background: #353a40;
+    color: #fff;
+}
+
+.seccionBsAs a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border: #fff solid 1px;
+    border-radius: 7px;
+    padding: 0.7rem 0.4rem 0.7rem 0.4rem;
+}
+
+.seccionBsAs p {
+    padding-bottom: 1rem;
+}
+
+/* Contacto */
+
+.seccionContacto {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionContacto > p { 
+    padding-bottom: 0.5rem;
+    margin: 0;
+}
+
+.seccionContacto > h2 {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.seccionContacto form {
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.seccionContacto form div {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    height: 2rem;
+    gap: 1rem;
+}
+
+.seccionContacto form div input {
+    width: 100%;
+    border: solid #aaa 1px;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.seccionContacto form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: solid #aaa 1px;
+    border-radius: 3px;
+    height: 6rem;
+    font-family: arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+.seccionContacto form input[type=submit] {
+    width: 100%;
+    height: 2.5rem;
+    color: #fff;
+    background: #96c93e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seccionContacto form p {
+    font-size: 0.8rem;
+    color: #888;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+/* Footer */
+
+footer {
+    background: #1d4358;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 10rem 2rem 10rem;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Grales */
+
+.subrayadoDePuntos {
+    text-decoration: underline dotted;
+}
+
+.resizeVertical {
+    resize: vertical;
+}
